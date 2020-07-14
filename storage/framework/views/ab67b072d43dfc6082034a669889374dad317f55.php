@@ -28,6 +28,7 @@
                                 <a class="dropdown-item" href="<?php echo e(url('/kriteria')); ?>">Kriteria</a>
                                 <a class="dropdown-item" href="<?php echo e(url('/subkriteria')); ?>">Sub Kriteria</a>
                                 <a class="dropdown-item" href="<?php echo e(url('/nilai')); ?>">Nilai</a>
+                                
                             </li>
                             <li><a class="nav-item nav-link" href="/sample" >Hasil</a></li>
                             <li><a class="nav-item nav-link" href="/dept_anggota">Admin</a></li>

@@ -58,7 +58,7 @@ class subKriteriaController extends Controller
                 );
 
     
-               subkriteria::where('id_subkriteria',$is)->update($form_data);
+               subkriteria::where('id_subkriteria',$id)->update($form_data);
                return redirect('/subkriteria')->with('success', 'kriteria updated!');
        }
 

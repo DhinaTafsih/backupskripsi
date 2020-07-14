@@ -12,7 +12,7 @@
                                 </ul>
                             </div>
                             <?php endif; ?>
-                     <form method="POST" action="<?php echo e(route('kriteria.update', $datas->id_kriteria)); ?>" accept-charset="UTF-8" class="form-horizontal" enctype="multipart/form-data">
+                     <form method="POST" action="<?php echo e(route('subkriteria.update', $datas->id_kriteria)); ?>" accept-charset="UTF-8" class="form-horizontal" enctype="multipart/form-data">
                                     <?php echo e(method_field('PUT')); ?>
 
                                         <?php echo e(csrf_field()); ?>
@@ -44,7 +44,7 @@
                                     <td><?php echo e($item->target); ?></td>
                                     <td><?php echo e($item->type); ?></td>
                                     <td>
-                                        <a href="<?php echo e(route('kriteria.edit',$item->id_kriteria)); ?>"class="btn btn-success btn-sm ">Edit</a>
+                                        <a href="<?php echo e(route('subkriteria.edit',$item->id_kriteria)); ?>"class="btn btn-success btn-sm ">Edit</a>
                                         <form method="POST" action="<?php echo e(url('/kriteria' . '/' . $item->id_kriteria)); ?>" accept-charset="UTF-8" style="display:inline">
                                                     <?php echo e(method_field('DELETE')); ?>
 

@@ -13,7 +13,7 @@
                             </div>
                             <?php endif; ?>
                      <form method="POST" action="<?php echo e(route('data-ca.update', $datas->id)); ?>" accept-charset="UTF-8" class="form-horizontal" enctype="multipart/form-data">
-                        <?php echo method_field('PUT'); ?>
+                     <?php echo method_field('PUT'); ?>
                             <?php echo e(csrf_field()); ?>
 
                             <?php echo $__env->make('calonAnggota.form', ['formMode' => 'edit'], \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>

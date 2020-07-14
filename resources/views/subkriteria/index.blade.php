@@ -27,8 +27,8 @@
                                 <th width="10px">No</th>
                                 <th>id_kriteria</th>
                                 <th>nama subkriteria</th>
-                                <th>secondary_factor</th>
-                                <th>core_factor</th>
+                                <th>target</th>
+                                <th>type</th>
                                 <th>Action</th>
                                 </tr>
                 </thead>

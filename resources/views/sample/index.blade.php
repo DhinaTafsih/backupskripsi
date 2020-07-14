@@ -25,10 +25,10 @@
                 <thead>
                                 <tr>
                                 <th width="10px">No</th>
-                                <th>SELISIH</th>
-                                <th>sample</th>
-                                <th>keterangan</th>
-                                <th>Action</th>
+                                <th>Nama calon anggota</th>
+                                <th>sub kriteria</th>
+                                <th>values</th>
+                                <th>action</th>
                                 </tr>
                 </thead>
                 <tbody>
